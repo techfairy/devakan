@@ -1000,13 +1000,18 @@ h3 {
 
 .payment-icon {
     background-color: #fca849;
-    /* Matching card style colors from screenshot somewhat */
     color: #ffffff;
-    font-weight: 700;
-    font-size: 14px;
-    padding: 8px 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 14px;
     border-radius: 4px;
-    display: inline-block;
+}
+
+.payment-svg {
+    height: 24px;
+    width: auto;
+    filter: brightness(0) invert(1);
 }
 
 .footer-bottom {
